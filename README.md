@@ -73,7 +73,7 @@ API, model, and version status check (returns model loaded state & app version)
 {
   "status": "ok",
   "Version": true,
-  "mode": "25.0.9.2025"
+  "model": "25.0.9.2025"
 }
 ```
 
