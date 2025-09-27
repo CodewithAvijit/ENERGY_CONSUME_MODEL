@@ -71,9 +71,9 @@ API, model, and version status check (returns model loaded state & app version)
 **Response (example)**
 ```json
 {
-  "api": "ok",
-  "model_loaded": true,
-  "model_version": "v1.0"
+  "status": "ok",
+  "Version": true,
+  "mode": "25.0.9.2025"
 }
 ```
 
@@ -109,8 +109,7 @@ curl -X POST "http://localhost:8000/predict" \
 **Response (example)**
 ```json
 {
-  "prediction_kwh": 12345.67,
-  "model_version": "v1.0"
+  "power_consumption": 12345.67,
 }
 ```
 
